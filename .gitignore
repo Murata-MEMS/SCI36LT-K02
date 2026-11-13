@@ -1,0 +1,34 @@
+# STM32CubeIDE workspace
+.metadata/
+
+# Keep project configuration tracked
+# .project
+# .cproject
+.settings/
+
+# Build outputs
+Debug/*
+
+Release/*
+
+InternalTest/
+/scratch/
+
+# Generated compiler files
+*.o
+*.d
+*.su
+*.cyclo
+*.map
+*.list
+
+# Python
+.vscode/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+uv.lock
+
+# Optional local launch configs
+*.launch
